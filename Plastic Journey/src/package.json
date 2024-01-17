@@ -1,0 +1,21 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "source": "view/index.html",
+  "scripts": {
+    "dev": "parcel view/index.html",
+    "build": "parcel build view/index.html"
+  },
+  "author": "Kristýna Janovská",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "parcel-reporter-static-files-copy": "^1.5.3"
+  },
+  "dependencies": {
+    "@pixi/loaders": "^6.5.10",
+    "colfio": "^0.3.1",
+    "pixi.js": "^7.3.3"
+  },
+  "description": ""
+}
